@@ -3,7 +3,7 @@
 Dependency-free, causal market-regime labeling with explicit probabilities, transition counts, and feature-drift diagnostics. It processes a declared historical CSV offline; it does not download prices, predict the next regime, produce a trade signal, or place orders.
 
 ```console
-$ ./doit.sh
+$ ./install.sh
 ...
 RegimePulseLM causal regime report
 rows calibration=20 embargo=2 test=10
