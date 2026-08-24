@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "regimepulselm"
+version = "0.1.0"
+description = "Causal market-regime labeling with uncertainty and drift diagnostics"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = []
+
+[project.scripts]
+regimepulselm = "regimepulselm.cli:main"
+
+[tool.setuptools.package-data]
+"regimepulselm.data" = ["*.json", "*.csv"]
