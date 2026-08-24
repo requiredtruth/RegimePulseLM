@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "windows": {"short": 3, "long": 8, "volatility": 5, "volume": 5},
+  "split": {"warmup_rows": 8, "calibration_rows": 20, "embargo_rows": 2, "test_rows": 10},
+  "threshold_quantiles": {"trend": 0.5, "volatility": 0.75},
+  "drift_bins": 5
+}
