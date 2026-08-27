@@ -77,3 +77,8 @@ Tests explicitly prove that modifying a future row cannot alter earlier features
 [Donations fund additional development time](SUPPORT.md). A confirmed public transaction hash may accompany a funded-direction issue, but cannot purchase ownership, returns, priority, deadlines, acceptance, or prohibited work.
 
 Apache-2.0 licensed. See [LICENSE](LICENSE).
+
+
+## Standard launcher
+
+`./run.sh` is the normal entry point. It runs `./install.sh` automatically when setup is missing, then opens the PySide6 control panel with live output and actions for the demo, tests, repair, and stop. Use `./cli.sh` for CLI-only operation.
